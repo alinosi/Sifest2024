@@ -1,0 +1,479 @@
+.form_section .container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form_section .container .form_wrapper {
+  margin: unset;
+}
+
+.form_section.seminar {
+  color: white;
+}
+
+input[type=date] {
+  padding-right: 0 !important;
+}
+
+input[type=checkbox] {
+  background-color: var(--lightgrey-color) !important;
+  accent-color: var(--bluegly-color);
+}
+
+input[type=file i]::file-selector-button {
+  background-color: var(--main-color) !important;
+  color: var(--bluegly-color) !important;
+  border: 2px solid var(--darkgrey-color);
+  padding: 2px;
+}
+
+input[type=radio i] {
+  -webkit-appearance: none;
+}
+
+textarea {
+  resize: none;
+}
+textarea::-webkit-scrollbar {
+  display: none;
+}
+
+select::-webkit-scrollbar {
+  display: none;
+}
+select option {
+  background: var(--main-color);
+}
+
+.form_wrapper_grid .form_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-content: center;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+
+@media only screen and (max-width: 997px) {
+  .form_wrapper_grid {
+    max-width: 500px !important;
+    margin: auto;
+  }
+  .form_wrapper_grid .form_container {
+    grid-template-columns: 1fr;
+  }
+}
+.form_wrapper {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.input_grid_wrapper {
+  display: grid;
+  grid-template-columns: 55% 42.5%;
+  -moz-column-gap: 2.5%;
+       column-gap: 2.5%;
+  margin: 1rem 0;
+}
+
+.input_wrapper {
+  margin: 1rem 0;
+}
+
+.input_radio {
+  display: flex;
+  flex-wrap: wrap;
+}
+.input_radio .radio_btn {
+  display: block;
+  width: 50%;
+  text-align: center;
+  padding: 0.25rem 1.5rem;
+  background: var(--body-color);
+  color: var(--main-color);
+  border: 1px solid var(--blue-color);
+}
+.input_radio input[type=radio]:checked + label {
+  background: var(--gradient-selfpage);
+}
+
+.input_radio_uiux {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.input_radio_uiux .radio_btn {
+  display: block;
+  width: 50%;
+  text-align: center;
+  padding: 0.25rem 1.5rem;
+  background: var(--body-color);
+  color: var(--main-color);
+  border: 1px solid var(--blue-color);
+}
+.input_radio_uiux input[type=radio]:checked + label {
+  background: var(--gradient-selfpage);
+}
+
+.input_container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 5% 95%;
+  padding: 0.2rem 0;
+  border-bottom: 2px solid var(--darkgrey-color);
+}
+.input_container::before, .input_container::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  transition: 0.4s;
+  background: var(--bluegly-color);
+}
+.input_container::before {
+  right: 50%;
+}
+.input_container::after {
+  left: 50%;
+}
+.input_container .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+  transition: 0.5s;
+  color: var(--darkgrey-color);
+}
+.input_container .input_div {
+  position: relative;
+  height: 45px;
+}
+.input_container .input_div .input_title {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.5s;
+  color: var(--main-color);
+}
+.input_container .input_div .password_visibility {
+  cursor: pointer;
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.5s;
+  color: var(--darkgrey-color);
+  z-index: var(--index-min);
+}
+.input_container .input_div input,
+.input_container .input_div select,
+.input_container .input_div textarea {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0.5rem 1rem;
+  padding-right: 2rem;
+  font-size: var(--normal-font-size);
+  color: var(--darkgrey-color);
+}
+
+@media only screen and (max-width: 567px) {
+  .input_container .input_div {
+    height: 40px;
+  }
+}
+.input_container.focus {
+  border: 2px solid var(--blue-color);
+}
+.input_container.focus::before, .input_container.focus::after {
+  width: 50%;
+}
+.input_container.focus .icon {
+  color: var(--bluegly-color);
+}
+.input_container.focus .input_div .input_title {
+  top: -4px;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: var(--body-color);
+  color: var(--blue-color);
+}
+.input_container.focus .input_div .password_visibility {
+  color: var(--bluegly-color);
+}
+
+.btn_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.btn_container .form_btn {
+  width: 100%;
+  max-width: 500px;
+}
+.btn_container .bluegly_btn {
+  --border-color: var(--bluegly-color);
+}
+
+.separator {
+  display: flex;
+  flex-basis: 100%;
+  width: 100%;
+  align-items: center;
+}
+.separator:before, .separator:after {
+  content: "";
+  flex-grow: 1;
+  background: var(--main-color);
+  height: 1px;
+  margin: 0 0.25rem;
+}
+
+.form_navs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+  row-gap: 0.5rem;
+}
+.form_navs .form_nav {
+  padding: 2px 1rem;
+  color: var(--main-color);
+  background: var(--darkgrey-color);
+  transition: 0.5s ease;
+}
+.form_navs .form_nav.active {
+  background: var(--bluegly-color);
+}
+
+@media only screen and (max-width: 576px) {
+  .form_navs {
+    gap: 0.5rem;
+  }
+}
+.type_navs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+.type_navs .type_nav {
+  width: 50%;
+  padding: 4px 1rem;
+  color: var(--main-color);
+  background: var(--body-color);
+  border: 1px solid var(--blue-color);
+  transition: 0.5s ease;
+}
+.type_navs .type_nav.active {
+  background: var(--gradient-selfpage);
+  border: 1px solid var(--blue-color);
+}
+
+@media only screen and (max-width: 997px) {
+  .type_navs {
+    max-width: 500px !important;
+    margin: auto;
+  }
+}
+.form_tabs .form_tab,
+.form_tabs .type_tab,
+.type_tabs .form_tab,
+.type_tabs .type_tab {
+  display: none;
+}
+.form_tabs .form_tab.active,
+.form_tabs .type_tab.active,
+.type_tabs .form_tab.active,
+.type_tabs .type_tab.active {
+  display: block;
+}
+
+section.hero {
+  color: var(--main-color);
+}
+section.hero .container .grid_container_40_50 .grid_box_right {
+  margin: auto;
+  max-width: 500px;
+  --border-color: var(--gradient-trans-bluegly-blue-left);
+}
+section.hero .container .img_container {
+  padding: unset;
+}
+
+@media screen and (min-width: 993px) {
+  section.hero .container .img_container {
+    padding: 0 15%;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.hero .container .grid_container_40_50 {
+    margin: auto;
+    max-width: 500px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  section.hero .container .img_container {
+    padding: 0 15%;
+  }
+}
+section.participate {
+  color: var(--main-color);
+}
+section.participate .container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+}
+section.participate .dashboard {
+  max-width: 1200px;
+  padding: 2rem 1.5rem;
+  width: 100%;
+  margin: auto;
+}
+section.participate .dashboard .no_participate {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+}
+section.participate .dashboard .no_participate .btn_bluegly {
+  --border-color: var(--bluegly-color);
+  --fill-color: var(--main-color);
+}
+section.participate .dashboard .no_participate .btn_dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+section.participate .dashboard .swiper-container {
+  width: 100%;
+  overflow: hidden;
+}
+section.participate .dashboard .swiper-slide {
+  width: 100%;
+}
+section.participate .dashboard .card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  /* background: var(--gradient-trans-bluegly-blue-left); */
+  transition: 0.5s ease;
+}
+section.participate .dashboard .card .img_container.dashboard_img {
+  width: 45%;
+}
+section.participate .dashboard .card .img_container.dashboard_img img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+section.participate .dashboard .card .main_content {
+  position: relative;
+  background: var(--body-color);
+  padding: 3rem 1rem;
+  width: 47.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section.participate .dashboard .card .main_content .logo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+section.participate .dashboard .card .main_content .logo .img_container {
+  width: 30px;
+}
+section.participate .dashboard .card .main_content .status {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+section.participate .dashboard .card .main_content .btn_dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+section.participate .dashboard .card .main_content .btn_dashboard .bluegly_btn {
+  --border-color: var(--bluegly-color);
+}
+section.participate .dashboard .card .main_content .btn_dashboard .btn_right,
+section.participate .dashboard .card .main_content .btn_dashboard .btn_left {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+section.participate .dashboard_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+section.participate .dashboard_footer .btn_dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  section.participate .dashboard {
+    max-width: 500px;
+    margin: auto;
+  }
+  section.participate .dashboard .card {
+    flex-direction: column;
+    padding: 5px;
+  }
+  section.participate .dashboard .card .img_container.dashboard_img {
+    width: 100%;
+  }
+  section.participate .dashboard .card .main_content {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 415px) {
+  section.participate .dashboard_footer .btn_dashboard .btn_right,
+  section.participate .dashboard_footer .btn_dashboard .btn_left {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  section.participate .dashboard_footer {
+    display: initial;
+  }
+}
+@media only screen and (max-width: 415px) {
+  section.participate .dashboard .card .main_content .btn_dashboard .btn_right,
+  section.participate .dashboard .card .main_content .btn_dashboard .btn_left {
+    width: 100%;
+  }
+}
+input.birth_date {
+  color-scheme: dark;
+}/*# sourceMappingURL=dashboard.css.map */

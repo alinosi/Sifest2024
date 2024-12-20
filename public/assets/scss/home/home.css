@@ -1,0 +1,559 @@
+section.hero {
+  background: var(--body-color);
+  background: url(../../../assets/img/sifest2024/bintang.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section.hero .container {
+  height: 110vh;
+  padding-top: 5rem;
+  position: relative;
+}
+section.hero .container .content_box {
+  position: relative;
+  text-align: center;
+  top: -1rem;
+  color: var(--blue-color);
+  max-width: 600px;
+  margin: auto;
+  padding-top: 2.5rem;
+  z-index: 2;
+
+}
+section.hero .container .content_box .btn_right {
+  --border-color: var(--blue-color);
+  --fill-color: var(--main-color);
+  top: -0.5rem;
+}
+
+.hero img {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.grid_box_left img{
+  z-index: 5;
+  width: 100%;
+}
+
+.grid_box_left {
+  z-index: 5;
+}
+
+.events .title_feature {
+  z-index: 5;
+  position: relative;
+}
+
+/* section.hero .container .img_container {
+  padding: 10px;
+  position: absolute;
+  height: 30%;
+}
+section.hero .container .img_container img {
+  width: 50vw;
+} */
+@media only screen and (min-width: 320px) {
+  section.hero .container {
+    height: 50vh;
+    padding-top: 6rem;
+  }
+  section.hero .container .content_box {
+    position: relative;
+    text-align: center;
+    top: -1rem;
+    max-width: 700px;
+    margin: auto;
+    padding-top: 5rem;
+  }
+  section.hero .container .content_box .btn_right {
+    --border-color: var(--blue-color);
+    --fill-color: var(--main-color);
+    top: -0.5rem;
+  }
+  section.hero .container .img_container img {
+    max-height: 80%;
+    max-width: 370px;
+  }
+}
+@media only screen and (max-width: 769px) {
+section.hero img{
+  width: 100%;
+  height: 100%;
+}
+
+section.about .grid_box_left img {
+  padding-left: 4.3vh;
+}
+
+  section.hero .container {
+    height: 40vh;
+    padding-top: 6rem;
+
+  }
+  section.hero .container .content_box {
+    position: relative;
+    text-align: center;
+    top: -1rem;
+    max-width: 700px;
+    margin: auto;
+    padding-top: 5rem;
+  }
+  section.hero .container .content_box .btn_right {
+    --border-color: var(--blue-color);
+    --fill-color: var(--main-color);
+    top: -0.5rem;
+  }
+  section.hero .container .img_container img {
+    max-height: 80%;
+    max-width: 370px;
+  }
+
+
+}
+/* @media only screen and (min-width: 375px) {
+section.hero img{
+  width: 100%;
+  height: 100%;
+}
+
+section.about .grid_box_left img {
+  padding-left: 4.3vh;
+}
+
+  section.hero .container {
+    height: 20vh;
+    padding-top: 6rem;
+
+  }
+  section.hero .container .content_box {
+    position: relative;
+    text-align: center;
+    top: -1rem;
+    max-width: 700px;
+    margin: auto;
+    padding-top: 5rem;
+  }
+  section.hero .container .content_box .btn_right {
+    --border-color: var(--blue-color);
+    --fill-color: var(--main-color);
+    top: -0.5rem;
+  }
+  section.hero .container .img_container img {
+    max-height: 80%;
+    max-width: 370px;
+  }
+
+
+} */
+@media only screen and (max-width: 369px) {
+section.hero img{
+  width: 100%;
+  height: 100%;
+}
+
+section.about .grid_box_left img {
+  padding-left: 4.3vh;
+}
+
+  section.hero .container {
+    height: 40vh;
+    padding-top: 6rem;
+
+  }
+  section.hero .container .content_box {
+    position: relative;
+    text-align: center;
+    top: -1rem;
+    max-width: 700px;
+    margin: auto;
+    padding-top: 5rem;
+  }
+  section.hero .container .content_box .btn_right {
+    --border-color: var(--blue-color);
+    --fill-color: var(--main-color);
+    top: -0.5rem;
+  }
+  section.hero .container .img_container img {
+    max-height: 80%;
+    max-width: 370px;
+  }
+
+
+}
+
+@media only screen and (min-width: 370px) {
+  section.hero .container {
+    height: 40vh;
+    padding-top: 6rem;
+  }
+  section.hero .container .content_box {
+    position: relative;
+    text-align: center;
+    top: -1rem;
+    max-width: 700px;
+    margin: auto;
+    padding-top: 5rem;
+  }
+  section.hero .container .content_box .btn_right {
+    --border-color: var(--blue-color);
+    --fill-color: var(--main-color);
+    top: -0.5rem;
+  }
+  section.hero .container .img_container img {
+    max-height: 80%;
+    max-width: 370px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  section.hero .container {
+    padding-bottom: unset !important;
+    margin-bottom: 7vh;
+  }
+  section.hero .container .content_box {
+    position: relative;
+    left: 0;
+    padding-top: 2rem;
+    text-align: center;
+    color: var(--blue-color);
+    background: unset;
+    padding-bottom: 3rem;
+  }
+  section.hero .container .content_box .btn_right {
+    --border-color: var(--darkgrey-color);
+    --fill-color: var(--main-color);
+  }
+  section.hero .container .img_container img {
+    max-height: 60%;
+    max-width: 38%;
+  }
+}
+section.about .break_section_top {
+  background-image: url("../../../assets/img/break_section_main.png");
+}
+section.about .grid_container_40_50 .box_rt_lb_side {
+  --border-color: var(--gradient-trans-bluegly-blue-right);
+}
+section.about .swiper.coverflow_swiper {
+  overflow: unset;
+}
+section.about .swiper.coverflow_swiper .box_all_side {
+  padding: 5px;
+  width: 85%;
+  min-width: 150px;
+  max-width: 400px;
+  max-height: 300px;
+}
+section.about .swiper.coverflow_swiper .box_all_side img {
+  filter: grayscale(0.7);
+  width: 100%;
+  max-height: 275px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+section.about .swiper.coverflow_swiper .swiper-slide-active::after,
+section.about .swiper.coverflow_swiper .swiper-slide-duplicate-active::after {
+  content: none;
+}
+section.about .swiper_container .swiper_title {
+  width: 100%;
+  bottom: calc(2.8rem + 4%);
+  color: var(--main-color);
+}
+
+@media only screen and (min-width: 769px) {
+  section.about .swiper.coverflow_swiper .box_all_side {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+section.events .grid_container_40_50 .box_lt_rb_side {
+  --border-color: var(--gradient-trans-bluegly-blue-left);
+}
+section.events .event_tab {
+  display: none;
+  position: relative;
+  overflow: hidden;
+}
+section.events .event_tab.active {
+  display: block;
+}
+section.events .event_navs {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  row-gap: 1rem;
+}
+section.events .event_navs::before {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background: var(--main-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section.events .event_nav {
+  padding: 0.5rem 1.5rem;
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-direction: column;
+  transition: 0.5s ease;
+}
+section.events .event_nav .circle {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background: var(--blue-color);
+  z-index: var(--index-min);
+}
+section.events .event_nav .event_date {
+  color: var(--bluegly-color);
+}
+section.events .event_nav.active .event_date {
+  color: var(--main-color);
+}
+section.events .event_nav.active.box_event_tab {
+  --background: var(--blue-color);
+}
+section.events .event_nav.active {
+  color: var(--bluegly-color);
+}
+section.events .swiper.coverflow_swiper {
+  overflow: unset;
+}
+section.events .swiper.coverflow_swiper .box_all_side {
+  padding: 5px;
+  width: 85%;
+  min-width: 150px;
+  max-width: 400px;
+  max-height: 300px;
+}
+section.events .swiper.coverflow_swiper .box_all_side img {
+  filter: grayscale(0.7);
+  width: 100%;
+  max-height: 275px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+section.events .swiper.coverflow_swiper .swiper-slide-active::after,
+section.events .swiper.coverflow_swiper .swiper-slide-duplicate-active::after {
+  content: none;
+}
+section.events .swiper_container .swiper_title {
+  width: 100%;
+  bottom: calc(2.8rem + 4%);
+  color: var(--main-color);
+}
+
+@media only screen and (max-width: 768px) {
+  section.events .event_navs {
+    margin-top: 2rem !important;
+    max-width: 600px;
+    flex-wrap: wrap;
+  }
+  section.events .event_navs::before {
+    content: none;
+  }
+  section.events .event_nav {
+    width: 50%;
+  }
+}
+section.documentation {
+  /* background: url(../../../assets/img/section_guidebook.jpg); */
+  /* background: url(../../../assets/img/sifest2024/home/doc3.jpg); */
+  background: url(../../../assets/img/sifest2024/bintang.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section.documentation .title_feature {
+  color: #f1f1f1;
+}
+section.documentation .swiper.coverflow_swiper {
+  overflow: unset;
+}
+section.documentation .swiper.coverflow_swiper .box_all_side {
+  --border-color: var(--gradient-selfpage);
+  padding: 5px;
+  width: 85%;
+  min-width: 150px;
+  max-width: 400px;
+  max-height: 300px;
+}
+section.documentation .swiper.coverflow_swiper .box_all_side img {
+  width: 100%;
+  max-height: 275px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+section.documentation .swiper.coverflow_swiper .swiper-slide-active::after,
+section.documentation .swiper.coverflow_swiper .swiper-slide-duplicate-active::after {
+  content: none;
+}
+section.documentation .swiper_container .swiper_title {
+  width: 100%;
+  bottom: calc(2.8rem + 4%);
+  color: var(--main-color);
+}
+
+@media only screen and (min-width: 769px) {
+  section.documentation .swiper.coverflow_swiper .box_all_side {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+section.faq {
+  background: var(--body-color);
+  background: url(../../../assets/img/sifest2024/bintang.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section.faq .container {
+  height: auto;
+}
+section.faq .container .grid_container_space_between {
+  max-width: 1200px;
+  margin: auto;
+}
+section.faq .container .question_box {
+  display: grid;
+  row-gap: 1rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: unset;
+}
+section.faq .container .card .card_header {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+section.faq .container .card .card_header i.fa-plus {
+  position: relative;
+  top: -2px;
+}
+section.faq .container .card .card_header.active {
+  color: var(--bluegly-color) !important;
+}
+section.faq .container .card .card_body {
+  display: none;
+}
+section.faq .container .box_rt_lb_side,
+section.faq .container .box_lt_rb_side {
+  --corner: 1.5rem;
+  --background: var(--lightgrey-color);
+}
+
+@media only screen and (max-width: 768px) {
+  section.faq .container .grid_container_space_between {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    max-width: 600px;
+    margin: auto;
+  }
+  section.faq .container .card {
+    text-align: left;
+  }
+  section.faq .container .card .card_header {
+    flex-direction: unset;
+  }
+  section.faq .container .card .card_header i {
+    margin-left: unset !important;
+    margin-right: 0.5rem !important;
+  }
+  section.faq .container .card .card_body {
+    padding-left: 1.25rem !important;
+    padding-right: unset !important;
+  }
+}
+section.faq {
+  background-color: var(--body-color);
+  background: url(../../../assets/img/sifest2024/bintang.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.sponsor .container .flex_container,
+section.medpar .container .flex_container {
+  transition: 0.3s ease;
+}
+section.sponsor .container .flex_container .flex_box,
+section.medpar .container .flex_container .flex_box {
+  max-width: 200px;
+  width: 100%;
+  padding: 5px;
+  background: var(--bluegly-color);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+/*# sourceMappingURL=home.css.map */
+
+/* @keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: rgba(255, 255, 255, 0);
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(59, 33, 114));
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(59, 33, 114));
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+  /* transition: all .4s ease; */
+
+
+/* .logos-slide {
+  display: inline-block;
+  animation: 20s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 20vw;
+  margin: 0 10vw;
+} */
+

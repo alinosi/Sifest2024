@@ -1,0 +1,23 @@
+$maxDuration: 3;
+
+@mixin transition-classes {
+    @for $i from 1 through $maxDuration {
+        $duration: $i * 0.5s;
+        .ease#{$i} {
+            transition: $duration ease;
+        }
+        .linear#{$i} {
+            transition: $duration linear;
+        }
+        .ease_in#{$i} {
+            transition: $duration ease-in;
+        }
+        .ease_out#{$i} {
+            transition: $duration ease-out;
+        }
+        .ease_in_out#{$i} {
+            transition: $duration ease-in-out;
+        }
+    }
+}
+@include transition-classes;

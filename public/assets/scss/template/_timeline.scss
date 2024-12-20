@@ -1,0 +1,111 @@
+section.timeline {
+    // background: var(--body-color);
+    background-image: url("../../img/section_timeline.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    // .break_section_bot {
+    //     background-image: url("../../img/break_section_grey.png");
+    // }
+
+    // .break_section_top {
+    //     background-image: url("../../img/break_section_grey.png");
+    // }
+
+    .container {
+        .timeline_container {
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            position: relative;
+
+            &::before {
+                content: " ";
+                position: absolute;
+                width: 5px;
+                height: 100%;
+                background: var(--blue-color);
+                left: calc(50% - 1px);
+            }
+        }
+
+        .timeline_item {
+            margin-bottom: 2.5rem;
+            width: 100%;
+            position: relative;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &:nth-child(odd) {
+                padding-right: calc(50% + 2.5rem);
+                text-align: right;
+            }
+
+            &:nth-child(even) {
+                padding-left: calc(50% + 2.5rem);
+                text-align: left;
+            }
+        }
+
+        .timeline_dot {
+            height: 1.2rem;
+            width: 1.2rem;
+            position: absolute;
+            background: var(--red-color);
+            left: calc(50% - 0.5rem);
+            border-radius: 50%;
+        }
+
+        .box_lt_rb_side {
+            --corner: 1.5rem;
+            --background: var(--body-color);
+            --border-color: var(--gradient-trans-red-blue-left);
+        }
+
+        .timeline_content {
+            padding: 1.5rem;
+        }
+
+        .timeline_date {
+            margin-bottom: 0.5rem;
+        }
+    }
+}
+
+@media only screen and (max-width: "768px") {
+    section.timeline {
+        .container {
+            .timeline_container {
+                max-width: 600px;
+
+                &::before {
+                    left: 0.5rem;
+                }
+            }
+
+            .timeline_item {
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                &:nth-child(odd) {
+                    padding-right: 0;
+                    padding-left: 2rem;
+                    text-align: left;
+                }
+
+                &:nth-child(even) {
+                    padding-left: 2rem;
+                    text-align: left;
+                }
+            }
+
+            .timeline_dot {
+                left: 0;
+            }
+        }
+    }
+}

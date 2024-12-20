@@ -1,0 +1,228 @@
+section.comingsoon .wrapper {
+  max-height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.comingsoon .wrapper .img_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 700px;
+  width: 100%;
+  opacity: 0.25;
+}
+section.hero .grid_container_40_50 .box_rt_lb_side {
+  --border-color: var(--gradient-trans-bluegly-blue-right);
+}
+
+/* section.timeline {
+  background: var(--body-color);
+} */
+section.timeline .container .flex_container .flex_box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  /*border: 4px solid var(--black-color);*/
+  background: var(--gradient-selfpage);
+  color: var(--main-color);
+  transition: 0.5s ease;
+}
+section.timeline .container .flex_container .flex_box iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem;
+  width: 100%;
+  height: 100%;
+}
+section.timeline .container .flex_container .flex_box .main_content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  transition: 0.5s ease;
+  background: var(--gradient-selfpage);
+  color: var(--main-color);
+}
+section.timeline .container .flex_container .flex_box:hover {
+  background: var(--main-color);
+  color: var(--black-color);
+}
+section.timeline .container .flex_container .flex_box:hover .main_content {
+  background: var(--main-color);
+  color: var(--black-color);
+}
+section.timeline .container .flex_container .map_bazar {
+  min-height: 600px;
+}
+
+section.contact .container .flex_container {
+  row-gap: 2rem;
+}
+section.contact .container .flex_container .flex_box {
+  width: 100%;
+  max-width: 450px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+}
+
+#p_bazaar{
+  position: absolute;
+  max-width: 300%;
+  width: 250%;
+  height: auto;
+  top: calc(-50px - 20%);
+  z-index: -1;
+  left: 7%;
+}
+
+@media (min-width: 375px) {
+  #p_bazaar{
+    max-width: 300%;
+    width: 250%;
+    height: auto;
+    top: calc(-84px - 20%);
+    left: -20%;
+  }
+}
+@media (min-width: 465px) {
+  #p_bazaar{
+    max-width: 300%;
+    width: 250%;
+    height: auto;
+    top: calc(-132px - 29%);
+    left: -30%;
+  }
+}
+@media (min-width: 537px) {
+  #p_bazaar{
+    max-width: 300%;
+    width: 250%;
+    height: auto;
+    top: calc(-215px - 20%);
+    left: -28%;
+  }
+}
+
+@media (min-width: 577px) {
+  #p_bazaar{
+    max-width: 300%;
+    width: 250%;
+    height: auto;
+    top: calc(-365px + 7%);
+    left: -31%;
+  }
+}
+@media (min-width: 621px) {
+  #p_bazaar{
+    max-width: 300%;
+    width: 250%;
+    height: auto;
+    top: calc(-393px + 2%);
+    left: -30%;
+  }
+}
+@media (min-width: 700px) {
+  #p_bazaar{
+    max-width: 300%;
+    width: 300%;
+    height: auto;
+    top: calc(-593px + 5%);
+    left: -54%;
+  }
+}
+
+@media (min-width: 769px) {
+  #p_bazaar{
+    max-width: 350%;
+    width: 300%;
+    height: auto;
+    top: calc(-651px + -2%);
+    left: -50%;
+  }
+}
+
+@media (min-width: 816px) {
+  #p_bazaar{
+    max-width: 300%;
+    width: 300%;
+    height: auto;
+    top: calc(-675px + -3%);
+    left: -53%;
+  }
+}
+@media (min-width: 870px) {
+  #p_bazaar{
+    max-width: 300%;
+    width: 300%;
+    height: auto;
+    top: calc(-785px + -5%);
+    left: -52%;
+  }
+}
+@media (min-width: 1000px) {
+  #p_bazaar{
+    max-width: 300%;
+    width: 300%;
+    height: auto;
+    top: calc(-828px + -5%);
+    left: -50%;
+  }
+}
+@media (min-width: 1148px) {
+  #p_bazaar{
+    max-width: 300%;
+    width: 300%;
+    height: auto;
+    top: calc(-993px + -3%);
+    left: -53%;
+  }
+}
+
+@media (min-width: 1201px) {
+  #p_bazaar{
+    max-width: 300%;
+    width: 300%;
+    height: auto;
+    top: calc(-1066px + -4%);
+    left: -53%;
+  }
+}
+@media (min-width: 1440px) {
+  #p_bazaar{
+    max-width: 300%;
+        width: 250%;
+        height: auto;
+        top: calc(-1021px + -6%);
+        left: -38%
+  }
+}
+
+@media (min-width: 1600px) {
+  #p_bazaar{
+    max-width: 300%;
+        width: 278%;
+        height: auto;
+        top: calc(-1269px + -6%);
+        left: -50%;
+  }
+}
+
+
+
+/*# sourceMappingURL=bazaar.css.map */

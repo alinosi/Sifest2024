@@ -1,0 +1,249 @@
+section.comingsoon .wrapper {
+  max-height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.comingsoon .wrapper .img_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 700px;
+  width: 100%;
+  opacity: 0.25;
+  color: var(--main-color);
+}
+section.hero .grid_container_40_50 .box_rt_lb_side {
+  --border-color: var(--gradient-trans-bluegly-blue-right);
+}
+
+section.hero.seminar {
+  color: white;
+}
+
+section.speaker {
+  /* background: var(--body-color); PENGARUH BAT DAH */
+}
+section.speaker .container .flex_container .flex_box {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  /* border: 4px solid var(--darkgrey-color); */
+  /* background: var(--gradient-selfpage); */
+  color: var(--main-color);
+  transition: 0.5s ease;
+}
+section.speaker .container .flex_container .flex_box .desc {
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  position: absolute;
+  transform: translateY(100%);
+  transition: 0.5s ease;
+}
+section.speaker .container .flex_container .flex_box:hover {
+  background: var(--darkgrey-color);
+  color: var(--main-color);
+}
+section.speaker .container .flex_container .flex_box:hover .desc {
+  transform: translateY(0);
+  background: var(--darkgrey-color);
+}
+
+/*section.timeline {*/
+/*   background-image: url("../../img/section_timeline.jpg");*/
+/*  background-repeat: no-repeat;*/
+/*  background-size: cover; */
+/*}*/
+section.timeline .container .timeline_container {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  position: relative;
+}
+section.timeline .container .timeline_container::before {
+  content: " ";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background: var(--blue-color);
+  left: calc(50% - 1px);
+}
+
+section.timeline .container .timeline_item {
+  margin-bottom: 2.5rem;
+  width: 100%;
+  position: relative;
+}
+section.timeline .container .timeline_item:last-child {
+  margin-bottom: 0;
+}
+section.timeline .container .timeline_item:nth-child(odd) {
+  padding-right: calc(50% + 2.5rem);
+  text-align: right;
+}
+section.timeline .container .timeline_item:nth-child(even) {
+  padding-left: calc(50% + 2.5rem);
+  text-align: left;
+}
+section.timeline .container .timeline_dot {
+  height: 1.2rem;
+  width: 1.2rem;
+  position: absolute;
+  background: var(--bluegly-color);
+  left: calc(50% - 0.5rem);
+  border-radius: 50%;
+}
+section.timeline .container .box_lt_rb_side {
+  --corner: 1.5rem;
+  --background: var(--body-color);
+  --border-color: var(--gradient-trans-bluegly-blue-left);
+}
+section.timeline .container .timeline_content {
+  padding: 1.5rem;
+}
+section.timeline .container .timeline_date {
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  section.timeline .container .timeline_container {
+    max-width: 600px;
+  }
+  section.timeline .container .timeline_container::before {
+    left: 0.5rem;
+  }
+  section.timeline .container .timeline_item:last-child {
+    margin-bottom: 0;
+  }
+  section.timeline .container .timeline_item:nth-child(odd) {
+    padding-right: 0;
+    padding-left: 2rem;
+    text-align: left;
+  }
+  section.timeline .container .timeline_item:nth-child(even) {
+    padding-left: 2rem;
+    text-align: left;
+  }
+  section.timeline .container .timeline_dot {
+    left: 0;
+  }
+}
+section.register .grid_box_left {
+  height: 100%;
+}
+section.register .grid_box_left .img_container {
+  height: 100%;
+}
+section.register .grid_box_left .img_container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 100%;
+}
+section.register .btn_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+section.register .btn_container .btn_left {
+  --border-color: var(--bluegly-color);
+  --fill-color: var(--main-color);
+}
+
+@media screen and (max-width: 768px) {
+  section.register .content_box.box_lt_rb_side {
+    max-width: 600px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 330px) {
+  section.register .btn_container .btn_left {
+    width: 100%;
+  }
+  section.register .btn_container .btn_right {
+    width: 100%;
+  }
+}
+section.contact .container .flex_container {
+  row-gap: 1rem;
+}
+section.contact .container .flex_container .flex_box {
+  width: 100%;
+  max-width: 450px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+}
+
+section.faq {
+  /* background: var(--body-color); */
+}
+section.faq .container {
+  height: auto;
+}
+section.faq .container .grid_container_space_between {
+  max-width: 1200px;
+  margin: auto;
+}
+section.faq .container .question_box {
+  display: grid;
+  row-gap: 1rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: unset;
+}
+section.faq .container .card .card_header {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+section.faq .container .card .card_header i.fa-plus {
+  position: relative;
+  top: -2px;
+}
+section.faq .container .card .card_header.active {
+  color: var(--bluegly-color) !important;
+}
+section.faq .container .card .card_body {
+  display: none;
+}
+section.faq .container .box_rt_lb_side,
+section.faq .container .box_lt_rb_side {
+  --corner: 1.5rem;
+  --background: var(--lightgrey-color);
+}
+
+@media only screen and (max-width: 768px) {
+  section.faq .container .grid_container_space_between {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    max-width: 600px;
+    margin: auto;
+  }
+  section.faq .container .card {
+    text-align: left;
+  }
+  section.faq .container .card .card_header {
+    flex-direction: unset;
+  }
+  section.faq .container .card .card_header i {
+    margin-left: unset !important;
+    margin-right: 0.5rem !important;
+  }
+  section.faq .container .card .card_body {
+    padding-left: 1.25rem !important;
+    padding-right: unset !important;
+  }
+}/*# sourceMappingURL=seminar.css.map */

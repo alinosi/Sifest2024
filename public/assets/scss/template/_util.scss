@@ -1,0 +1,99 @@
+:root {
+    /*======== Color =========*/
+    --main-color: #f1f1f1;
+    --black-color: #030403;
+    --red-color: #DD517e;
+    --darkgrey-color: #556cc9;
+    --lightgrey-color: #e1ded6;
+    --blue-color: #556cc9;
+    --body-color: #1e1e1e;
+    // --lightgrey-color: #b2aaa6;
+
+    --shadow-black: #030403cc;
+
+    --gradient-trans-black-red: linear-gradient(
+        135deg,
+        transparent 5%,
+        var(--black-color) 10%,
+        var(--red-color) 75%,
+        transparent 95%
+    );
+
+    --gradient-trans-red-blue-right: linear-gradient(
+        135deg,
+        transparent 5%,
+        var(--blue-color) 10%,
+        var(--red-color) 75%,
+        transparent 95%
+    );
+
+    --gradient-trans-red-blue-left: linear-gradient(
+        45deg,
+        transparent 5%,
+        var(--blue-color) 10%,
+        var(--red-color) 75%,
+        transparent 95%
+    );
+
+    --gradient-selfpage: linear-gradient(
+        45deg,
+        transparent 0%,
+        var(--blue-color) 5%,
+        var(--red-color) 95%,
+        transparent 100%
+    );
+
+    --gradient-trans-red-blue: linear-gradient(
+        45deg,
+        transparent 0%,
+        var(--blue-color) 10%,
+        var(--red-color) 75%,
+        transparent 100%
+    );
+
+    /*======== Typography ========*/
+
+    // Font Size
+    --big-font-size: 2.6rem;
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.6rem;
+    --h3-font-size: 1.3rem;
+    --normal-font-size: 0.95rem;
+    --small-font-size: 0.85rem;
+    --smaller-font-size: 0.7rem;
+
+    // Font weight
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+
+    // z-index
+    --index-max: 100;
+    --index-med: 75;
+    --index-mid: 50;
+    --index-min: 25;
+}
+
+@media screen and (max-width: 400px) {
+    :root {
+        --big-font-size: 9.11111111vw;
+        --h1-font-size: 7.999999999vw;
+        --h2-font-size: 6.555555555vw;
+        --h3-font-size: 6vw;
+        --normal-font-size: 4.22222222vw;
+        --small-font-size: 3.777777777vw;
+        --smaller-font-size: 3.1111112vw;
+    }
+}
+
+@media screen and (min-width: 997px) {
+    :root {
+        --big-font-size: 3rem;
+        --h1-font-size: 2.4rem;
+        --h2-font-size: 1.9rem;
+        --h3-font-size: 1.5rem;
+        --normal-font-size: 1rem;
+        --small-font-size: 0.9rem;
+        --smaller-font-size: 0.8rem;
+    }
+}

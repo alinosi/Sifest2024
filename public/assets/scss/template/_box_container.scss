@@ -1,0 +1,492 @@
+// box right top, left bottom cut
+.box_rt_lb_side {
+    --border-color: var(--blue-color);
+    --corner-color: var(--red-color);
+    --background: var(--body-color);
+    --corner: 2rem;
+    position: relative;
+    z-index: var(--index-mid);
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        right: 6px;
+        bottom: 6px;
+        background: var(--background);
+        clip-path: polygon(
+            0% 0%,
+            calc(100% - var(--corner)) 0%,
+            100% var(--corner),
+            100% 100%,
+            calc(100% - var(--corner)) 100%,
+            var(--corner) 100%,
+            0% calc(100% - var(--corner)),
+            0% var(--corner)
+        );
+        z-index: -1;
+    }
+
+    &::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--border-color);
+    }
+
+    .box_rt_lb_side_design {
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            height: 6px;
+            width: 22px;
+            top: 2px;
+            right: -6px;
+            background: var(--corner-color);
+            clip-path: polygon(5px 0%, calc(100% - 5px) 0%, 100% 100%, 0% 100%);
+            transform: rotate(45deg);
+            z-index: -1;
+        }
+
+        &::after {
+            top: unset;
+            right: unset;
+            bottom: 2px;
+            left: -6px;
+            transform: rotate(-135deg);
+        }
+    }
+}
+
+// box left top, right bottom cut
+.box_lt_rb_side {
+    --border-color: var(--blue-color);
+    --corner-color: var(--red-color);
+    --background: var(--body-color);
+    --corner: 2rem;
+    position: relative;
+    z-index: var(--index-mid);
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        right: 6px;
+        bottom: 6px;
+        background: var(--background);
+        clip-path: polygon(
+            var(--corner) 0%,
+            100% 0%,
+            100% var(--corner),
+            100% calc(100% - var(--corner)),
+            calc(100% - var(--corner)) 100%,
+            var(--corner) 100%,
+            0% 100%,
+            0% var(--corner)
+        );
+        z-index: -1;
+    }
+
+    &::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--border-color);
+    }
+
+    .box_lt_rb_side_design {
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            height: 6px;
+            width: 22px;
+            top: 2px;
+            left: -6px;
+            background: var(--corner-color);
+            clip-path: polygon(5px 0%, calc(100% - 5px) 0%, 100% 100%, 0% 100%);
+            transform: rotate(-45deg);
+            z-index: -1;
+        }
+
+        &::after {
+            top: unset;
+            left: unset;
+            bottom: 2px;
+            right: -6px;
+            transform: rotate(135deg);
+        }
+    }
+}
+
+// box all side
+.box_all_side {
+    --border-color: var(--blue-color);
+    --background: var(--body-color);
+    --corner: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: var(--index-min);
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        right: 4px;
+        bottom: 4px;
+        background: var(--background);
+        clip-path: polygon(
+            var(--corner) 0%,
+            calc(100% - var(--corner)) 0%,
+            100% var(--corner),
+            100% calc(100% - var(--corner)),
+            calc(100% - var(--corner)) 100%,
+            var(--corner) 100%,
+            0% calc(100% - var(--corner)),
+            0% var(--corner)
+        );
+        z-index: -1;
+    }
+
+    &::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--border-color);
+    }
+
+    &:hover::after {
+        transform: scale(1.2);
+        transition: 0.5s;
+        opacity: 0;
+        background: var(--border-color);
+    }
+
+    .box_all_side_design::before,
+    .box_all_side_design::after,
+    .box_all_side_design2::before,
+    .box_all_side_design2::after {
+        content: "";
+        position: absolute;
+        height: 20%;
+        width: 20%;
+        top: -1%;
+        left: -1%;
+        background: var(--border-color);
+        clip-path: polygon(
+            var(--corner) 0%,
+            calc(100% - var(--corner)) 0%,
+            100% var(--corner),
+            100% calc(100% - var(--corner)),
+            calc(100% - var(--corner)) 100%,
+            var(--corner) 100%,
+            0% calc(100% - var(--corner)),
+            0% var(--corner)
+        );
+        z-index: -1;
+    }
+
+    .box_all_side_design::after {
+        left: unset;
+        right: -1%;
+    }
+
+    .box_all_side_design2::before {
+        top: unset;
+        bottom: -1%;
+    }
+
+    .box_all_side_design2::after {
+        top: unset;
+        bottom: -1%;
+        left: unset;
+        right: -1%;
+    }
+}
+
+//Box Event
+
+.box_event {
+    --border-color: var(--gradient-trans-red-blue-left);
+    --background: var(--body-color);
+    --corner: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: var(--index-min);
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+        background: var(--background);
+        clip-path: polygon(
+            var(--corner) 0%,
+            calc(100% - var(--corner)) 0%,
+            100% var(--corner),
+            100% calc(100% - var(--corner)),
+            calc(100% - var(--corner)) 100%,
+            var(--corner) 100%,
+            0% calc(100% - var(--corner)),
+            0% var(--corner)
+        );
+        z-index: -1;
+    }
+
+    &::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--border-color);
+    }
+
+    &:hover::after {
+        // transform: scale(1.2);
+        // transition: 0.5s;
+        opacity: 1;
+        background: var(--body-color);
+    }
+
+    .box_event_design::before,
+    .box_event_design::after,
+    .box_event_design2::before,
+    .box_event_design2::after {
+        content: "";
+        position: absolute;
+        height: 20%;
+        width: 20%;
+        top: -1%;
+        left: -1%;
+        background: var(--border-color);
+        clip-path: polygon(
+            var(--corner) 0%,
+            calc(100% - var(--corner)) 0%,
+            100% var(--corner),
+            100% calc(100% - var(--corner)),
+            calc(100% - var(--corner)) 100%,
+            var(--corner) 100%,
+            0% calc(100% - var(--corner)),
+            0% var(--corner)
+        );
+        z-index: -1;
+    }
+
+    .box_event_design::after {
+        left: unset;
+        right: -1%;
+    }
+
+    .box_event_design2::before {
+        top: unset;
+        bottom: -1%;
+    }
+
+    .box_event_design2::after {
+        top: unset;
+        bottom: -1%;
+        left: unset;
+        right: -1%;
+    }
+}
+
+// Box Event Tab
+
+.box_event_tab {
+    --border-color: var(--blue-color);
+    --background: var(--body-color);
+    --corner: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: var(--index-min);
+    height: 100px;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        right: 4px;
+        bottom: 4px;
+        background: var(--background);
+        clip-path: polygon(
+            var(--corner) 0%,
+            calc(100% - var(--corner)) 0%,
+            100% var(--corner),
+            100% calc(100% - var(--corner)),
+            calc(100% - var(--corner)) 100%,
+            var(--corner) 100%,
+            0% calc(100% - var(--corner)),
+            0% var(--corner)
+        );
+        z-index: -1;
+
+        .active_tab {
+            background: var(--blue-color);
+        }
+    }
+
+    &::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--border-color);
+    }
+
+    &:hover::after {
+        transform: scale(1.2);
+        transition: 0.5s;
+        opacity: 0;
+        background: var(--border-color);
+        color: white;
+    }
+}
+
+// Box Register
+
+.box_register {
+    --border-color: var(--gradient-trans-red-blue);
+    --corner-color: var(--gradient-trans-red-blue);
+    --background: var(--main-color);
+    --corner: 3rem;
+    position: relative;
+    z-index: var(--index-mid);
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 9px;
+        left: 9px;
+        right: 9px;
+        bottom: 9px;
+        background: var(--body-color);
+        clip-path: polygon(
+            var(--corner) 0%,
+            100% 0%,
+            100% var(--corner),
+            100% calc(100% - var(--corner)),
+            calc(100% - var(--corner)) 100%,
+            var(--corner) 100%,
+            0% 100%,
+            0% var(--corner)
+        );
+        z-index: -1;
+    }
+
+    &::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--border-color);
+    }
+
+    .box_register_design {
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            height: 9px;
+            width: 60px;
+            top: 11px;
+            left: -15px;
+            background: var(--corner-color);
+            clip-path: polygon(9px 0%, calc(100% - 9px) 0%, 100% 100%, 0% 100%);
+            transform: rotate(-45deg);
+            z-index: -1;
+        }
+
+        &::after {
+            top: unset;
+            left: unset;
+            bottom: 11px;
+            right: -15px;
+            transform: rotate(135deg);
+        }
+    }
+}
+
+
+// Box Verify
+
+.box_verify {
+    --border-color: var(--gradient-trans-red-blue);
+    --corner-color: var(--gradient-trans-red-blue);
+    --background: var(--main-color);
+    --corner: 3rem;
+    position: relative;
+    z-index: var(--index-mid);
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        right: 3px;
+        bottom: 3px;
+        background: var(--body-color);
+        clip-path: polygon(
+            var(--corner) 0%,
+            100% 0%,
+            100% var(--corner),
+            100% calc(100% - var(--corner)),
+            calc(100% - var(--corner)) 100%,
+            var(--corner) 100%,
+            0% 100%,
+            0% var(--corner)
+        );
+        z-index: -1;
+    }
+
+    &::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--border-color);
+    }
+
+    .box_verify_design {
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            height: 9px;
+            width: 60px;
+            top: 11px;
+            left: -15px;
+            background: var(--corner-color);
+            clip-path: polygon(9px 0%, calc(100% - 9px) 0%, 100% 100%, 0% 100%);
+            transform: rotate(-45deg);
+            z-index: -1;
+        }
+
+        &::after {
+            top: unset;
+            left: unset;
+            bottom: 11px;
+            right: -15px;
+            transform: rotate(135deg);
+        }
+    }
+}

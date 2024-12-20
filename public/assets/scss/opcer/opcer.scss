@@ -1,0 +1,145 @@
+section.comingsoon {
+    .wrapper {
+        max-height: 100vh;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .img_container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 500px;
+            width: 100%;
+            opacity: 0.1;
+            color: var(--main-color);
+        }
+    }
+}
+
+section.hero {
+    .grid_container_40_50 {
+        .box_rt_lb_side {
+            --border-color: var(--gradient-trans-red-blue-right);
+        }
+
+        // .grid_box_left {
+        //     .img_container{
+        //         img {
+        //             border: 1px solid var(--main-color);
+        //             border-radius: 500px;
+        //         }
+        //     }
+        // }
+    }
+}
+
+section.speaker {
+    // .break_section_top {
+    //     background-image: url("../../img/break_section_grey.png");
+    // }
+
+    background: var(--body-color);
+
+    .container {
+        .flex_container {
+            .flex_box {
+                width: 100%;
+                max-width: 350px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                overflow: hidden;
+                border: 4px solid var(--black-color);
+                background: var(--gradient-selfpage);
+                color: var(--main-color);
+                transition: 0.5s ease;
+
+                .desc {
+                    bottom: 0;
+                    left: 0;
+                    padding: 1rem;
+                    position: absolute;
+                    transform: translateY(100%);
+                    transition: 0.5s ease;
+                }
+
+                &:hover {
+                    background: var(--main-color);
+                    color: var(--black-color);
+
+                    .desc {
+                        transform: translateY(0);
+                        background: var(--main-color);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// Documentation Section
+section.documentation_opcer {
+    // .break_section_top {
+    //     background-image: url("../../../assets/img/break_section_main.png");
+    // }
+
+    background: url(../../../assets/img/section_guidebook.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    // background: var(--body-color);
+
+    .swiper.coverflow_swiper {
+        overflow: unset;
+
+        .box_all_side {
+            --border-color: var(--gradient-selfpage);
+            padding: 5px;
+            width: 85%;
+            min-width: 150px;
+            max-width: 400px;
+            max-height: 300px;
+
+            img {
+                // filter: grayscale(0.7);
+                width: 100%;
+                max-height: 275px;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+
+        .swiper-slide-active::after,
+        .swiper-slide-duplicate-active::after {
+            content: none;
+        }
+    }
+
+    .swiper_container {
+        .swiper_title {
+            width: 100%;
+            bottom: calc(2.8rem + 4%);
+            color: var(--main-color);
+        }
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    section.documentation_opcer {
+        .swiper.coverflow_swiper {
+            .box_all_side {
+                width: 100%;
+                max-width: 500px;
+            }
+        }
+    }
+}
+
+@import "../template/faq";
+

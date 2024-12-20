@@ -1,0 +1,123 @@
+$maxSizes: 40;
+
+@mixin margin-classes {
+    @for $i from 1 through $maxSizes {
+        $margin: $i * 0.25rem;
+        /* margin #{$margin} */
+        .m#{$i} {
+            margin: $margin !important;
+        }
+        .ml#{$i} {
+            margin-left: $margin !important;
+        }
+        .mr#{$i} {
+            margin-right: $margin !important;
+        }
+        .mt#{$i} {
+            margin-top: $margin !important;
+        }
+        .mb#{$i} {
+            margin-bottom: $margin !important;
+        }
+        .mx#{$i} {
+            margin-left: $margin !important;
+            margin-right: $margin !important;
+        }
+        .my#{$i} {
+            margin-top: $margin !important;
+            margin-bottom: $margin !important;
+        }
+    }
+}
+@include margin-classes;
+
+@mixin padding-classes {
+    @for $i from 1 through $maxSizes {
+        $padding: $i * 0.25rem;
+        /* padding #{$padding} */
+        .p#{$i} {
+            padding: $padding !important;
+        }
+        .pl#{$i} {
+            padding-left: $padding !important;
+        }
+        .pr#{$i} {
+            padding-right: $padding !important;
+        }
+        .pt#{$i} {
+            padding-top: $padding !important;
+        }
+        .pb#{$i} {
+            padding-bottom: $padding !important;
+        }
+        .px#{$i} {
+            padding-left: $padding !important;
+            padding-right: $padding !important;
+        }
+        .py#{$i} {
+            padding-top: $padding !important;
+            padding-bottom: $padding !important;
+        }
+    }
+}
+@include padding-classes;
+
+.m_unset {
+    margin: unset !important;
+}
+.ml_unset {
+    margin-left: unset !important;
+}
+.mr_unset {
+    margin-right: unset !important;
+}
+.mt_unset {
+    margin-top: unset !important;
+}
+.mb_unset {
+    margin-bottom: unset !important;
+}
+.mx_unset {
+    margin-left: unset !important;
+    margin-right: unset !important;
+}
+.my_unset {
+    margin-top: unset !important;
+    margin-bottom: unset !important;
+}
+
+.p_unset {
+    padding: unset !important;
+}
+.pl_unset {
+    padding-left: unset !important;
+}
+.pr_unset {
+    padding-right: unset !important;
+}
+.pt_unset {
+    padding-top: unset !important;
+}
+.pb_unset {
+    padding-bottom: unset !important;
+}
+.px_unset {
+    padding-left: unset !important;
+    padding-right: unset !important;
+}
+.py_unset {
+    padding-top: unset !important;
+    padding-bottom: unset !important;
+}
+
+.m_auto {
+    margin: auto !important;
+}
+.mx_auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.my_auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}

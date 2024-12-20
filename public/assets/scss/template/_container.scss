@@ -1,0 +1,55 @@
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    max-width: 1600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    --bs-gutter-x: 2rem;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@media (min-width: 577px) {
+    .container {
+        width: calc(100% - 25px);
+    }
+}
+
+@media (min-width: 769px) {
+    .container {
+        width: calc(100% - 60px);
+    }
+}
+
+@media (min-width: 993px) {
+    .container {
+        width: calc(100% - 100px);
+    }
+}
+
+@media (min-width: 1201px) {
+    .container {
+        width: calc(100% - 160px);
+    }
+}
+
+@media (min-width: 1401px) {
+    .container {
+        width: calc(100% - 200px);
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        // width: unset;
+        max-width: 1400px;
+    }
+}

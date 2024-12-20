@@ -1,0 +1,112 @@
+section.comingsoon .wrapper .img_containersection.comingsoon {
+    .wrapper {
+        max-height: 100vh;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .img_container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 700px;
+            .section.comingsoon .wrapper .img_container {
+                width: 100%;
+                opacity: 0.1;
+            }
+
+            img {
+                // filter: contrast(0);
+            }
+        }
+    }
+}
+
+section.hero {
+    .grid_container_40_50 {
+        .box_rt_lb_side {
+            --border-color: var(--gradient-trans-red-blue-right);
+        }
+    }
+}
+
+section.timeline {
+
+    background: var(--body-color);
+
+    .container {
+        .flex_container {
+            .flex_box {
+                position: relative;
+                width: 100%;
+                max-width: 500px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                row-gap: 1rem;
+                border: 4px solid var(--black-color);
+                background: var(--gradient-selfpage);
+                color: var(--main-color);
+                transition: 0.5s ease;
+
+                iframe {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    padding: 0.5rem;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .main_content {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    width: 100%;
+                    transition: 0.5s ease;
+                    background: var(--gradient-selfpage);
+                    color: var(--main-color);
+                }
+
+                &:hover {
+                    background: var(--main-color);
+                    color: var(--black-color);
+
+                    .main_content {
+                        background: var(--main-color);
+                        color: var(--black-color);
+                    }
+                }
+            }
+
+            .map_bazar {
+                min-height: 600px;
+            }
+        }
+    }
+}
+
+section.contact {
+    .container {
+        .flex_container {
+            row-gap: 2rem;
+
+            .flex_box {
+                width: 100%;
+                max-width: 450px;
+                padding: 1rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                row-gap: 1rem;
+            }
+        }
+    }
+}

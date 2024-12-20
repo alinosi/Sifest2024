@@ -1,0 +1,110 @@
+// right 40% left 50% gap 10% grid container
+.grid_container_40_50 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+
+    .grid_box_left {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .grid_box_right {
+        position: relative;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 2.5rem 1.5rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .grid_container_40_50 {
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 40% 50%;
+        max-width: unset;
+
+        .grid_box_left {
+            padding: unset;
+        }
+
+        .grid_box_right {
+            padding: 8%;
+        }
+    }
+}
+
+// right 50% left 40% gap 10% grid container
+.grid_container_50_40 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+
+    .grid_box_left {
+        position: relative;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 2.5rem 1.5rem;
+    }
+    .grid_box_right {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .grid_container_50_40 {
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 50% 40%;
+        max-width: unset;
+
+        .grid_box_right {
+            padding: unset;
+        }
+
+        .grid_box_left {
+            padding: 8%;
+        }
+    }
+}
+
+// Auto-fit space between grid container
+.grid_box_contact {
+    padding: 10px;
+    // display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid_container_space_between {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    column-gap: 2rem;
+    row-gap: 1rem;
+
+    .grid_box_center {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid_box {
+        padding: 10px;
+    }
+}

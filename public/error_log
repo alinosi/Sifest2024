@@ -1,0 +1,376 @@
+[22-Sep-2022 06:53:03 UTC] PHP Warning:  require(/home/sifestid/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/sifestid/public_html/index.php on line 34
+[22-Sep-2022 06:53:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sifestid/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sifestid/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/sifestid/public_html/index.php on line 34
+[22-Sep-2022 06:53:05 UTC] PHP Warning:  require(/home/sifestid/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/sifestid/public_html/index.php on line 34
+[22-Sep-2022 06:53:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sifestid/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sifestid/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/sifestid/public_html/index.php on line 34
+[22-Sep-2022 06:53:05 UTC] PHP Warning:  require(/home/sifestid/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/sifestid/public_html/index.php on line 34
+[22-Sep-2022 06:53:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sifestid/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sifestid/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/sifestid/public_html/index.php on line 34
+[22-Sep-2022 06:53:07 UTC] PHP Warning:  require(/home/sifestid/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/sifestid/public_html/index.php on line 34
+[22-Sep-2022 06:53:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sifestid/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sifestid/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/sifestid/public_html/index.php on line 34
+[22-Sep-2022 06:53:09 UTC] PHP Warning:  require(/home/sifestid/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/sifestid/public_html/index.php on line 34
+[22-Sep-2022 06:53:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/sifestid/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sifestid/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/sifestid/public_html/index.php on line 34
+[22-Sep-2022 07:20:20 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:20:21 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:20:22 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:20:25 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:21:41 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:22:13 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:14 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:18 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:20 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:26 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:28 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:28 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:29 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:29 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:29 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:29 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:30 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:41 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:44 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:46 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:52 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:53 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:54 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:23:55 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:24:04 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:24:05 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Sep-2022 07:24:13 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(631): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(612): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/sifestid/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/sifestid/sifest2023/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335

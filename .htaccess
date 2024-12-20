@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect all requests to the public directory if not a file or directory
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ /public/$1 [L,R=301]
+
+    # Handle asset requests
+    RewriteRule ^assets/(.*)$ public/assets/$1 [L]
+
+    # Send all requests to index.php (or your front controller)
+    RewriteRule ^(/)?$ public/index.php [L]
+</IfModule>
